@@ -38,7 +38,7 @@ dashboard.layout = html.Div(
                          {"label": "Line", "value": "Line"}
         ], value="Scatter",
         placeholder="Select How to Visualize", style={"color": "#120c08"}),
-        dcc.Graph(id = "scatter", figure=fig)], style={"background-color": "#ddcdc6", "width":"50%", "margin-left": "25%"}),
+        dcc.Graph(id = "scatter", figure=fig)], style={"background-color": "#ddcdc6", "width":"50%", "margin-left": "25%", "height":"60vh"}),
         html.Div([
         html.Div(
             "Predict your sleep quality:"
@@ -61,7 +61,7 @@ dashboard.layout = html.Div(
             dcc.Input(id = "caffeine", value = 0, placeholder= "Caffeine Intake", type="number"),
             html.Div("Physical Activity:"),
             dcc.Input(id = "physical", value = 0, placeholder= "Physical Activity", type="number", style={"margin-bottom": "2%"}),
-        ], style={"text-align": "center"})], style={"color": "#120c08", "background-color": "#ddcdc6", "width":"50%", "margin-left": "25%"})
+        ], style={"text-align": "center"})], style={"color": "#120c08", "background-color": "#ddcdc6", "width":"50%", "margin-left": "25%", "height": "40vh"})
     ]
 , style={"background-image": "url(pexels-mdsnmdsnmdsn-1405761.jpg)", "color": "#ffffff"})
 @dashboard.callback(
