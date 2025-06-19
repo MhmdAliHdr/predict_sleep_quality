@@ -2,7 +2,7 @@ polars==1.30.0
 scikit-learn==1.7.0
 plotly==6.1.0
 dash==3.0.4
-dash-bootstap-components=2.0.2
+dash-bootstap-components==2.0.2
 dash-core-components==2.0.0
 dash-extensions==2.0.4
 dash-html-components==2.0.0
