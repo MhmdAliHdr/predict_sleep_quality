@@ -15,6 +15,7 @@ counts = res["len"]
 fig = px.scatter(x = choice_values, y = sleep_quality, size = counts, color_continuous_scale="brwnyl", color=counts)
 fig.update_layout(paper_bgcolor="rgba(0, 0, 0, 0)")
 dashboard = dash.Dash()
+server = dashboard.server
 dashboard.title = "Student Sleep Quality"
 dashboard.layout = html.Div(
     children = [

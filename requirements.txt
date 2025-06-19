@@ -5,3 +5,4 @@ dash==3.0.4
 dash-core-components==2.0.0
 dash-extensions==2.0.4
 dash-html-components==2.0.0
+gunicorn
