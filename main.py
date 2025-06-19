@@ -93,4 +93,4 @@ def predict(age, year, duration, study, screen, caffeine, physical):
     p = model.predict([[age, year, duration, study, screen, caffeine, physical]])
     print(p)
     return p
-dashboard.run()
+dashboard.run(host="0.0.0.0", port="10000")
